@@ -1,0 +1,41 @@
+.container{
+    width: 300px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.form-input{
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+.todo-list > li{
+   margin-top: 5px;
+}
+
+.todo-list > li >div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.todo-list button{
+    margin-left: 5px;
+}
+
+.todo-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.todo-form input{
+    width: 100%;
+}
+.todo-form button{
+    margin-left: 5px;
+}
+ 
